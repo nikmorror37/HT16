@@ -37,7 +37,7 @@ namespace HomeTask16LoginPage.Controllers
         }
 
         [HttpPost]
-        public RedirectResult Login(string userName, string password)
+        public RedirectResult LoginPage(string userName, string password)
         {
             if (userNameExisted.Equals(userName) && passwordExisted.Equals(password))
             {
