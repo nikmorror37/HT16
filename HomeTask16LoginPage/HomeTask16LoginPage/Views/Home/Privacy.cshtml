@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "Здесь пример частичного представления";
+}
+<h1>Здесь пример частичного представления</h1>
+@await Html.PartialAsync("ExamplePartView", new string[] { "Leo Messi", "Cristiano Ronaldo", "Mbappe", "Zlatan Ibra", "Neymar", "Lewandowski", "Benzema" })
+
+
+<p>Выше примеры.</p>
